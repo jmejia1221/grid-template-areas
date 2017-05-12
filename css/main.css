@@ -7,6 +7,7 @@
         "aside section"
         "footer footer";
     grid-template-rows: 1fr 6fr 1fr; /*Added rows: 1fr = header; 6fr = aside and section; 1fr = footer */
+    grid-template-columns: 1fr 6fr; /*Added columns: 1fr = aside; 6fr = section*/
 }
 .container > * {
     background-color: saddlebrown;
